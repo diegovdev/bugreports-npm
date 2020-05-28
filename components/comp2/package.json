@@ -1,0 +1,28 @@
+{
+    "name": "@mycomponents/comp2",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "_clear": "rimraf dist/*",
+        "build": "npm run _clear && tsc",
+        "start": "npm run watch",
+        "watch": "tsc --watch &"
+    },
+    "dependencies": {
+        "@polymer/iron-icon": "^3.0.1",
+        "@polymer/iron-icons": "^3.0.1",
+        "@polymer/iron-overlay-behavior": "^3.0.1",
+        "@polymer/paper-dialog": "^3.0.1",
+        "@polymer/paper-icon-button": "^3.0.1",
+        "@polymer/paper-spinner": "^3.0.1",
+        "highlight.js": "^9.15.6",
+        "lit-element": "^2.0.0"
+    },
+    "devDependencies": {
+        "rimraf": "^2.6.2",
+        "typescript": "3.5.3"
+    }
+}

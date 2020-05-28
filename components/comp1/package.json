@@ -1,0 +1,25 @@
+{
+    "name": "@mycomponents/comp1",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "_clear": "rimraf dist/*",
+        "build": "npm run _clear && tsc",
+        "start": "npm run watch",
+        "watch": "tsc --watch &"
+    },
+    "dependencies": {
+        "@lgrignon/zip.js": "^1.0.1",
+        "file-saver": "^2.0.2",
+        "ky": "^0.14.0"
+    },
+    "devDependencies": {
+        "@types/file-saver": "^2.0.1",
+        "@types/zip.js": "^2.0.27",
+        "rimraf": "^2.6.2",
+        "typescript": "3.5.3"
+    }
+}

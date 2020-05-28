@@ -1,0 +1,26 @@
+{
+  "name": "test-staging-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapeish/bugreports-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapeish/bugreports-npm/issues"
+  },
+  "homepage": "https://github.com/sapeish/bugreports-npm#readme",
+  "dependencies": {
+    "@mycomponents/comp1": "../components/comp1",
+    "@mycomponents/comp2": "../components/comp2",
+    "@mycomponents/comp3": "../components/comp3",
+    "@mycomponents/comp4": "../components/comp4"
+  },
+  "devDependencies": {}
+}
